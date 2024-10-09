@@ -1,0 +1,47 @@
+<% layout('/layouts/boilerplate.ejs') -%>
+
+<div class="row mt-3 custom-curve" style="background-color: #F5F5F7;">
+    <h1 class="col-6 offset-2">SignUp on Wonderlust</h1>
+    <div class="col-6 offset-2">
+        <form action="/signup" method="post" class="needs-validation" novalidate>
+            <div class="mb-3">
+                <label for="username" class="form-label"><b>Username</b></label>
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  placeholder="Add a username"
+                  class="form-control"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+              </div>
+
+              <div class="mb-3">
+              <label for="email" class="form-label"><b>Email</b></label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Add a email"
+                  class="form-control"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+              <label for="password" class="form-label"><b>Password</b></label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Enter a password"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <button class="btn btn-success mb-3">SignUp</button>
+        </form>
+ 
+    </div>  
+</div>      

@@ -1,0 +1,98 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust</title>
+</head> -->
+<% layout('/layouts/boilerplate.ejs') -%>
+<!-- <body> -->
+  <div class="row mt-3 custom-curve" style="background-color: #dbe4f9;">
+    <div class="col-8 offset-2">
+      <h2>Create a new Listing</h2>
+      <br />
+      <form method="POST" action="/listing" class="needs-validation" novalidate enctype="multipart/form-data"> 
+        <div class="mb-3">
+          <label for="title" class="form-label"><b>Title</b></label>
+          <input
+            type="text"
+            name="listing[title]"
+            placeholder="Add a catchy title"
+            class="form-control"
+            required
+          />
+          <div class="valid-feedback">title looks good!</div>
+        </div>
+
+        <div class="mb-3">
+          <label for="description" class="form-label"><b>Description</b></label>
+          <textarea
+            type="text"
+            name="listing[description]"
+            placeholder="Enter description"
+            class="form-control"
+            required
+          ></textarea>
+          <div class="valid-feedback">Description looks good!</div>
+        </div>
+
+        <div class="mb-3">
+          <label for="image" class="form-label"><b>Upload Listing Image</b></label>
+          <input
+            name="listing[image]"
+            class="form-control"
+            type="file"
+            required
+          />
+        </div>
+
+        <div class="row">
+          <div class="mb-3 col-md-4">
+            <label for="price" class="form-label"><b>Price</b></label>
+            <input
+              
+              name="listing[price]"
+              placeholder="1000"
+              class="form-control"
+              required
+            />
+            <div class="invalid-feedback">Please enter the price.</div>
+          </div>
+
+          <div class="mb-3 col-md-8">
+            <label for="country" class="form-label"><b>Country</b></label>
+            <input
+              type="text"
+              name="listing[country]"
+              placeholder="India"
+              class="form-control"
+              required
+            />
+            <div class="invalid-feedback">Please enter country name.</div>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="location" class="form-label"><b>Location</b></label>
+          <input
+            type="text"
+            name="listing[location]"
+            placeholder="Patna,Bihar"
+            class="form-control"
+            required
+          />
+          <div class="invalid-feedback">Please enter your location.</div>
+        </div>
+
+        <br />
+        <button method="POST" action="/listing" class="btn btn-dark add-btn">
+          Add
+        </button>
+        <br /><br />
+      </form>
+    </div>
+  </div>
+<!-- </body> -->
+<!-- </html> -->
+
+<!-- "listing[]" is object like (key value) pair which is used in crete route -->

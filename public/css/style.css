@@ -1,0 +1,166 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important ;
+  background-color: #ffffff !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+/* Navbar */
+
+.navbar {
+  height: 5rem;
+  background-color: #FCFAEE;
+}
+.fa-compass {
+  color: #ff385c;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #222222 !important;
+  margin-right: 25px;
+}
+
+.logo-title {
+  font-size: 1.4rem;
+  color: #FF385C;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info-socials {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  font-size: 1.5rem;
+  color: #B7B7B7;
+}
+
+.f-info-socials i:hover {
+  color: #fe424d;
+}
+
+.f-info-links,
+.f-info-brand {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  font-style: italic;
+  color: #181C14;
+}
+
+.f-info {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+  height: 8rem;
+  background-color: #F5F5F7;
+}
+
+/* Cards */
+
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card-text p {
+  font-weight: 400 !important;
+}
+
+.listing-link {
+  text-decoration: none;
+}
+
+/* Card Effect */
+
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.1;
+  background-color: white;
+}
+
+/* New page/Form */
+.add-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+  width: 100px;
+}
+
+.add-btn:hover {
+  background-color: #f8626f !important;
+}
+
+/* Edit */
+.edit-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+  width: 100px !important;
+}
+.edit-btn:hover {
+  background-color: #f8626f !important;
+}
+
+/* Show */
+
+.show-img {
+  height: 40vh;
+}
+
+.btns {
+  display: flex;
+}
+
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.custom-curve{
+  border-radius: 15px; /* Adjust the value to control the curve */
+    /* Optionally add background color or shadow for better visual effect */
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Map */
+#map {
+  height: 400px;
+  width: 80vh;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
