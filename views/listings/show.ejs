@@ -136,7 +136,7 @@
           ></p>
           <p class="card-text"><%= review.comment %></p>
           <!-- delete Review -->
-          <% if (review.author._id.equals(CurrUser._id)) { %>
+          <% if (CurrUser && review.author && review.author._id.equals(CurrUser._id)) { %>
           <form
             class="mb-3"
             method="POST"
