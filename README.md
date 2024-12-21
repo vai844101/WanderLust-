@@ -1,4 +1,5 @@
-# WanderLust  ![image](https://github.com/user-attachments/assets/fb27501d-96d5-4b1c-b7ae-9f4a3ebdcccf)
+# WanderLust  ![image](https://github.com/user-attachments/assets/f93c4072-072c-41ef-a2c8-fb59dfdaf56c)
+
 
 
 WanderLust is a travel planning application that helps users discover new destinations, create itineraries, and share their travel experiences with others. Whether you're a solo traveler or planning a trip with friends, WanderLust provides all the tools you need to make your journey unforgettable.
